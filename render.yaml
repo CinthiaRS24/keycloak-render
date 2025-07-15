@@ -4,4 +4,4 @@ services:
     env: docker
     plan: free
     region: oregon
-    branch: main
+    branch: master
