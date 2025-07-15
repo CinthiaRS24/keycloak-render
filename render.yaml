@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: keycloak-cinthia
+    env: docker
+    plan: free
+    region: oregon
+    branch: main
