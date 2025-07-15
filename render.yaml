@@ -3,5 +3,12 @@ services:
     name: keycloak-cinthia
     env: docker
     plan: free
-    region: oregon
-    branch: master
+    autoDeploy: true
+    envVars:
+      - key: KEYCLOAK_ADMIN
+        value: admin
+      - key: KEYCLOAK_ADMIN_PASSWORD
+        value: admin
+    ports:
+      - port: 8080
+        protocol: http
