@@ -10,4 +10,4 @@ RUN /opt/keycloak/bin/kc.sh build
 EXPOSE 8080
 
 # Comando de arranque usando el hostname de Render (¡ajústalo!)
-CMD [ "start", "--hostname", "keycloak-cinthia.onrender.com", "--hostname-strict=false" ]
+CMD [ "start-dev", "--hostname", "keycloak-cinthia.onrender.com", "--hostname-strict=false" ]
